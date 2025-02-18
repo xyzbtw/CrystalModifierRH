@@ -1,0 +1,16 @@
+{
+  "Plugin-Class": "xyz.modifier.ExamplePlugin",
+  "Name": "${project.plugin_name}",
+  "Version": "${project.plugin_version}",
+  "Description": "CrystalModifier rusherhack core plugin",
+  "URL": "https://github.com/RusherDevelopment/example-core-plugin",
+  "Authors": [
+    "xyzbtw"
+  ],
+  "Minecraft-Versions": [
+    "${project.minecraft_version}"
+  ],
+  "Mixin-Configs": [
+    "mixins.example-plugin.json"
+  ]
+}
